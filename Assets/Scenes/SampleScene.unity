@@ -784,7 +784,8 @@ MonoBehaviour:
   - {fileID: 9211923966383199137, guid: c6c4d34f9165b8e46b6cc63322f8c4d6, type: 3}
   - {fileID: 876653010991854255, guid: a3313b91e53c8d841a22fca92ea803d1, type: 3}
   - {fileID: 5039164547460668910, guid: 85335268809976643a28e31c76daad27, type: 3}
-  room1Pos: {fileID: 2146540780}
+  nextRoomPos: {fileID: 2146540780}
+  father: {fileID: 2072063599}
 --- !u!64 &2072063601
 MeshCollider:
   m_ObjectHideFlags: 0
