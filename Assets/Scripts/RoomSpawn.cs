@@ -19,7 +19,7 @@ public class RoomSpawn : MonoBehaviour
         Debug.Log("Selecting Room");
         int num = Random.Range(0, allRooms.Count);
         
-        if(allRooms[num] == previousRoom)
+        if(allRooms[num] == previousRoom && allRooms.Count >= 3)
         {
             PickRoom();
         }

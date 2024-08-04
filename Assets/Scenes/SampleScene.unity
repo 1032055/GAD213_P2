@@ -779,10 +779,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allRooms:
-  - {fileID: 740332888743423160, guid: 038f74743ba563840994f160cf63a559, type: 3}
-  - {fileID: 1309333698887205266, guid: 888f071cc648a314cb655a53d1ee41b2, type: 3}
-  - {fileID: 9211923966383199137, guid: c6c4d34f9165b8e46b6cc63322f8c4d6, type: 3}
-  - {fileID: 876653010991854255, guid: a3313b91e53c8d841a22fca92ea803d1, type: 3}
   - {fileID: 5039164547460668910, guid: 85335268809976643a28e31c76daad27, type: 3}
   nextRoomPos: {fileID: 2146540780}
   father: {fileID: 2072063599}
