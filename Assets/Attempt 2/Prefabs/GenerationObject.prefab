@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5002936618130658489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8828017386131326813}
+  - component: {fileID: 472083768629525723}
+  - component: {fileID: 6077900471159226879}
+  m_Layer: 0
+  m_Name: GenerationObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8828017386131326813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002936618130658489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472083768629525723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002936618130658489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea82ca38d8cfe5a4f81819c68e0a8c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPointPrefab: {fileID: 6119468010083282189, guid: 3262267234071dc4ebf0006c1a976d87, type: 3}
+  menuObj: {fileID: 5002936618130658489}
+  numOfPoints: 20
+  spacing: 10
+  roomGenScript: {fileID: 6077900471159226879}
+--- !u!114 &6077900471159226879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002936618130658489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fed9621d6b5794d8e41f51b2b5c4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomPosis: []
+  roomPrefabs:
+  - {fileID: 4258307134362836657, guid: 1c14f27483b6f2d4aa406d914d845706, type: 3}
+  - {fileID: 2804986240722552021, guid: 9f0a9ad9cee95554b8b63b0446c3cf1f, type: 3}
+  - {fileID: 8325186723819209014, guid: d83d9f0e2b9fbd245a930f09bc08b519, type: 3}
+  - {fileID: 7920120172709286723, guid: eef9a7f27a2987242ab5df8660e49962, type: 3}
+  - {fileID: 4057786330314324154, guid: 4e35c05ac5108054ea0442f0438b3e00, type: 3}
+  - {fileID: 4675266851926776774, guid: 29a74152892e2484aa61b689778a5b16, type: 3}
+  specialRooms:
+  - {fileID: 7920120172709286723, guid: eef9a7f27a2987242ab5df8660e49962, type: 3}
+  - {fileID: 4057786330314324154, guid: 4e35c05ac5108054ea0442f0438b3e00, type: 3}
+  lastestStartPos: 0
+  endRoom: {fileID: 3173017960336110518, guid: 9b79ce7a029b04846867c6fb3c60a2a9, type: 3}
+  startRoom: {fileID: 4675266851926776774, guid: 29a74152892e2484aa61b689778a5b16, type: 3}
